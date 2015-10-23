@@ -1,6 +1,6 @@
 # Emacs Unicode Troll Stopper
 
-A minor mode for highlighting Unicode homoglyphs.
+A minor mode for highlighting Unicode homoglyphs. Inspired by [vim-troll-stopper](https://github.com/vim-utils/vim-troll-stopper)
 
 ```
 Replace a semicolon (;) with a greek question mark (;) in your friend's
