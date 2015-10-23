@@ -61,7 +61,7 @@
 
 ;;;###autoload
 (define-minor-mode unicode-troll-stopper-mode
-  "Highlight Unicode homoglyphs."
+  "Highlight Unicode homoglyphs in the current buffer."
   :lighter " ⅹТᖇОᒪᏞ"
   (if unicode-troll-stopper-mode
       (font-lock-add-keywords nil unicode-troll-stopper--keywords)
