@@ -1,6 +1,6 @@
 # Emacs Unicode Troll Stopper
 
-A minor mode for highlighting Unicode homoglyphs. Inspired by [vim-troll-stopper](https://github.com/vim-utils/vim-troll-stopper)
+A minor mode for highlighting Unicode homoglyphs. Inspired by [vim-troll-stopper](https://github.com/vim-utils/vim-troll-stopper).
 
 ```
 Replace a semicolon (;) with a greek question mark (;) in your friend's
@@ -11,12 +11,20 @@ C# code and watch them pull their hair out over the syntax error
 
 In recent times, a vicious beast known only as the "Unicode troll" has risen
 from the abyss, wielding his fearsome tool, the Unicode homoglyph. Looking
-nearly identical to common ASCII characters, the homoglyphs hide in code,
+nearly identical to common ASCII characters, these homoglyphs hide in code,
 lying in wait for an unsuspecting programmer to devour whole without warning.
 
-Don't be the next victim. Enable `unicode-troll-stopper-mode' and force these
+Don't be the next victim. Enable `unicode-troll-stopper-mode` and force these
 vicious beasts from the shadows in which they lurk.
 
 ```emacs-lisp
 (add-hook 'some-major-mode-hook #'unicode-troll-stopper-mode)
 ```
+
+Behold! Your code is safe once again.
+
+![unicode-troll-stopper-mode in action](example.png)
+
+### License
+
+[MIT](https://github.com/camsaul/emacs-unicode-troll-stopper/blob/master/LICENSE)
