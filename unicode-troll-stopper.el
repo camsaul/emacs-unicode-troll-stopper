@@ -1,4 +1,4 @@
-;;; unicode-troll-stopper -- Minor mode for Highlighting Unicode homoglyphs -*- lexical-binding: t; coding: utf-8; -*-
+;;; unicode-troll-stopper.el --- Minor mode for Highlighting Unicode homoglyphs -*- lexical-binding: t; coding: utf-8; -*-
 ;; Copyright (C) 2015 Cam Saül
 
 ;; Author: Cam Saül <cammsaul@gmail.com>
