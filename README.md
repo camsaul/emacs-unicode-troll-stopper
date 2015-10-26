@@ -25,6 +25,17 @@ Behold! Your code is safe once again.
 
 ![unicode-troll-stopper-mode in action](example.png)
 
+
+### Getting It
+
+Available on [MELPA](https://melpa.org/#/unicode-troll-stopper). 
+
+```emacs-lisp
+(package-initialize)
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(package-install 'unicode-troll-stopper)
+```
+
 ### License
 
 [MIT](https://github.com/camsaul/emacs-unicode-troll-stopper/blob/master/LICENSE)
