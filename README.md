@@ -1,3 +1,5 @@
+[![MELPA](http://melpa.org/packages/unicode-troll-stopper-badge.svg)](http://melpa.org/#/unicode-troll-stopper)
+
 # Emacs Unicode Troll Stopper
 
 A minor mode for highlighting Unicode homoglyphs. Inspired by [vim-troll-stopper](https://github.com/vim-utils/vim-troll-stopper).
