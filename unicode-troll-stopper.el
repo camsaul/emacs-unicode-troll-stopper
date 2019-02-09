@@ -59,7 +59,9 @@
   (if unicode-troll-stopper-mode
       (font-lock-add-keywords nil unicode-troll-stopper--keywords)
     (font-lock-remove-keywords nil unicode-troll-stopper--keywords))
-  (font-lock-fontify-region (point-min) (point-max)))
+  (if (fboundp 'font-lock-flush)
+      (font-lock-flush)
+    (font-lock-fontify-region (point-min) (point-max))))
 
 (provide 'unicode-troll-stopper)
 ;;; unicode-troll-stopper.el ends here
